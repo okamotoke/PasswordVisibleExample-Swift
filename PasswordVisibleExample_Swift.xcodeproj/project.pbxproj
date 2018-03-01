@@ -12,6 +12,13 @@
 		218CBA1C200CCED4007F1CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA1A200CCED4007F1CC3 /* Main.storyboard */; };
 		218CBA1E200CCED4007F1CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA1D200CCED4007F1CC3 /* Assets.xcassets */; };
 		218CBA21200CCED4007F1CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA1F200CCED4007F1CC3 /* LaunchScreen.storyboard */; };
+		218CBA29200CCEF9007F1CC3 /* JJPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CBA28200CCEF9007F1CC3 /* JJPasswordTextField.swift */; };
+		218CBA312010C589007F1CC3 /* visibility_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA2B2010C589007F1CC3 /* visibility_off@2x.png */; };
+		218CBA322010C589007F1CC3 /* visibility_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA2C2010C589007F1CC3 /* visibility_off@3x.png */; };
+		218CBA332010C589007F1CC3 /* visibility_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA2D2010C589007F1CC3 /* visibility_on.png */; };
+		218CBA342010C589007F1CC3 /* visibility_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA2E2010C589007F1CC3 /* visibility_on@2x.png */; };
+		218CBA352010C589007F1CC3 /* visibility_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA2F2010C589007F1CC3 /* visibility_on@3x.png */; };
+		218CBA362010C589007F1CC3 /* visibility_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 218CBA302010C589007F1CC3 /* visibility_off.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		218CBA1D200CCED4007F1CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		218CBA20200CCED4007F1CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		218CBA22200CCED4007F1CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218CBA28200CCEF9007F1CC3 /* JJPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJPasswordTextField.swift; sourceTree = "<group>"; };
+		218CBA2B2010C589007F1CC3 /* visibility_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visibility_off@2x.png"; sourceTree = "<group>"; };
+		218CBA2C2010C589007F1CC3 /* visibility_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visibility_off@3x.png"; sourceTree = "<group>"; };
+		218CBA2D2010C589007F1CC3 /* visibility_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visibility_on.png; sourceTree = "<group>"; };
+		218CBA2E2010C589007F1CC3 /* visibility_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visibility_on@2x.png"; sourceTree = "<group>"; };
+		218CBA2F2010C589007F1CC3 /* visibility_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visibility_on@3x.png"; sourceTree = "<group>"; };
+		218CBA302010C589007F1CC3 /* visibility_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visibility_off.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		218CBA15200CCED4007F1CC3 /* PasswordVisibleExample_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				218CBA2A2010C563007F1CC3 /* images */,
 				218CBA16200CCED4007F1CC3 /* AppDelegate.swift */,
 				218CBA18200CCED4007F1CC3 /* ViewController.swift */,
 				218CBA1A200CCED4007F1CC3 /* Main.storyboard */,
 				218CBA1D200CCED4007F1CC3 /* Assets.xcassets */,
 				218CBA1F200CCED4007F1CC3 /* LaunchScreen.storyboard */,
 				218CBA22200CCED4007F1CC3 /* Info.plist */,
+				218CBA28200CCEF9007F1CC3 /* JJPasswordTextField.swift */,
 			);
 			path = PasswordVisibleExample_Swift;
+			sourceTree = "<group>";
+		};
+		218CBA2A2010C563007F1CC3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				218CBA302010C589007F1CC3 /* visibility_off.png */,
+				218CBA2B2010C589007F1CC3 /* visibility_off@2x.png */,
+				218CBA2C2010C589007F1CC3 /* visibility_off@3x.png */,
+				218CBA2D2010C589007F1CC3 /* visibility_on.png */,
+				218CBA2E2010C589007F1CC3 /* visibility_on@2x.png */,
+				218CBA2F2010C589007F1CC3 /* visibility_on@3x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +152,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218CBA342010C589007F1CC3 /* visibility_on@2x.png in Resources */,
+				218CBA312010C589007F1CC3 /* visibility_off@2x.png in Resources */,
 				218CBA21200CCED4007F1CC3 /* LaunchScreen.storyboard in Resources */,
+				218CBA332010C589007F1CC3 /* visibility_on.png in Resources */,
+				218CBA362010C589007F1CC3 /* visibility_off.png in Resources */,
 				218CBA1E200CCED4007F1CC3 /* Assets.xcassets in Resources */,
+				218CBA322010C589007F1CC3 /* visibility_off@3x.png in Resources */,
+				218CBA352010C589007F1CC3 /* visibility_on@3x.png in Resources */,
 				218CBA1C200CCED4007F1CC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218CBA29200CCEF9007F1CC3 /* JJPasswordTextField.swift in Sources */,
 				218CBA19200CCED4007F1CC3 /* ViewController.swift in Sources */,
 				218CBA17200CCED4007F1CC3 /* AppDelegate.swift in Sources */,
 			);
@@ -277,7 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PasswordVisibleExample_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "keisukeokamoto.PasswordVisibleExample-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "ko.PasswordVisibleExample-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PasswordVisibleExample_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "keisukeokamoto.PasswordVisibleExample-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "ko.PasswordVisibleExample-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

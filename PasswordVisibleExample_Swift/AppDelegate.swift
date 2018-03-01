@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PasswordVisibleExample_Swift
 //
-//  Created by sakura on 2018/01/15.
-//  Copyright © 2018年 Keisuke Okamoto. All rights reserved.
+//  Created by KO on 2018/01/15.
+//  Copyright © 2018年 KO. All rights reserved.
 //
 
 import UIKit
